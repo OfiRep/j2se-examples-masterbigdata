@@ -22,4 +22,14 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    
+    <!-- CSV process dependency -->
+    <dependencies>
+        <dependency>
+           <groupId>org.apache.commons</groupId>
+           <artifactId>commons-csv</artifactId>
+           <version>1.4</version>
+           <type>jar</type>
+       </dependency>
+    </dependencies>
 </project>

@@ -1,4 +1,4 @@
 language: java
 sudo: false
-script: mvn clean compile verify
+script: mvn clean compile verify mvn compile -f ./j2se-maven-module-examples/pom.xml
 jdk: oraclejdk8

@@ -1,2 +1,4 @@
 language: java
+sudo: false
+script: mvn clean compile verify
 jdk: oraclejdk8

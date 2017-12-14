@@ -3,11 +3,15 @@ pipeline {
     
   stages {
     stage('Clean Workspace') {
-      cleanWs()
+        steps {
+            cleanWs()
+        }
     }
     
     stage('Say Hello') {
-      echo 'Hello From Pipeline!'
+        steps {
+            echo 'Hello From Pipeline!'
+        }
     }
   }
 }
